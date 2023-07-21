@@ -2,7 +2,7 @@ package com.example.firstproject
 
 class CalculRator(var num1: Double) {
     open fun inputnum() {
-        println("원하는 등호를 선택해달라냥(+,-,/,*)")
+        println("원하는 등호를 선택해달라냥(+,-,/,*, %)")
         var operator = readLine()
         when (operator) {
             "+" -> println("더할 숫자를 내놔라냥")
